@@ -5,18 +5,6 @@
 
 ---
 
-## 📊 Tableau de Bord des Performances Industrielles (Homologation Officielle)
-
-| Indicateur Clé | Valeur Validée | Statut & Signification Concrète |
-| :--- | :---: | :--- |
-| **1. Total de Succès Validés** | **306** | Comportements, API REST et tests validés avec 100% de réussite |
-| **2. Total d'Échecs Historiques** | **4** | Anciennes anomalies de jeunesse résolues définitivement |
-| **3. Couverture de Qualification** | **300 / 300** (100%) | **Grand banc d'homologation industrielle franchi à 100%** |
-| **4. Succès Récents (Nouvelle Architecture 5 Piliers)** | **+54** | Nouveaux tests Spring Boot et 5 piliers passés sans aucun faux pas |
-| **5. Taux d'Échec Récent** | **0.0%** | **Zéro régression, fiabilité absolue de la nouvelle architecture** |
-
----
-
 ## 🌟 Présentation Générale du Projet
 
 **Doudou Intelligent** est une architecture logicielle et matérielle de pointe conçue pour donner vie à une peluche ou un compagnon interactif pour enfants de 3 à 8 ans.
