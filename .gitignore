@@ -1,0 +1,73 @@
+# ==============================================================================
+# PROTECTION STRICTE & FILTRE DE CONFIDENTIALITÉ — PROJET JOUET ENFANT
+# ==============================================================================
+
+# 1. DOSSIER CONFIDENTIEL & RECHERCHE (INTERDICTION STRICTE DE PUBLIER)
+docs/
+*.pdf
+
+# 2. PRIVATISATION DU CŒUR DU JOUET (PILIERS 02, 03, 04, 05)
+# Seul le fichier README.md de chaque pilier est publié pour exposer l'architecture.
+# L'intégralité du code source, des modèles, des algorithmes et des données reste privée.
+
+02_toy_stt_engine/*
+!02_toy_stt_engine/README.md
+
+03_toy_llm_engine/*
+!03_toy_llm_engine/README.md
+
+04_toy_tts_engine/*
+!04_toy_tts_engine/README.md
+
+05_toy_firmware_and_ota_updater/*
+!05_toy_firmware_and_ota_updater/README.md
+
+# 3. MODÈLES D'IA, POIDS LORA, DATASETS & FICHIERS AUDIO
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.tar
+*.gz
+*.zip
+
+# 4. BASES DE DONNÉES & JOURNAUX
+*.db
+*.sqlite
+*.sqlite3
+*.wal
+*.shm
+*.log
+
+# 5. SECRETS, CLÉS PRIVÉES & VARIABLES D'ENVIRONNEMENT
+.env
+.env.*
+*.pem
+*.key
+*.crt
+id_rsa
+id_ecdsa
+credentials.json
+
+# 6. FICHIERS SYSTÈME & MAC OS
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+
+# 7. ARTEFACTS DE COMPILATION (JAVA SPRING BOOT & NODE REACT)
+**/target/
+**/.mvn/
+**/node_modules/
+**/dist/
+
+# 8. CACHE PYTHON
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
